@@ -9,15 +9,17 @@ export default function Header(){
         <div>
           <img src="" alt="" />
           <h1>
-            One Piece Wiki
+            <a href="/home">One Piece Wiki</a>
+            
           </h1>
         </div>
       
         <div className="nav1">
           
             <ul>
-            <button><a href="/register">Register</a></button>
-            <span>login</span>
+            <button><a href="/register">Registre</a></button>
+            <button>Login</button>
+            <button>About</button>
             </ul>
           
           
